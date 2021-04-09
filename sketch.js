@@ -74,15 +74,6 @@ function draw() {
   packageSprite.x= packageBody.position.x ;
   packageSprite.y= packageBody.position.y ;
 
-  if (keyDown("left")) {
-	  helicopterSprite.x=helicopterSprite.x-20;
-
-  }
-
-  if (keyDown("right")) {
-	  helicopterSprite.x=helicopterSprite.x+20;
-  }
-
 
   if (keyDown("down")) {
 	  Matter.Body.setStatic(packageBody,false)
